@@ -1,0 +1,72 @@
+body{
+  background-image: url("https://image.freepik.com/free-vector/dreamy-starry-sky-watercolor-background_79603-883.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fix;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+	background-color: #FFF9F8;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+	background: white;
+	padding: 20px;
+}
+
+.rules{
+	margin: auto;
+    max-width: 600px;
+    background-color: #FFECEB;
+    padding: 20px;
+    color: lightcoral;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+h1{
+	color: orange;
+	font-weight: bold;
+	font-size: xxx-large;
+	text-align: center;
+	text-shadow: -3px -3px orangered;
+}
+
+h2{
+	color: lightcoral;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: -2px -2px rebeccapurple;
+}
+
+.links{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+a:link, a:visited{
+	background-color: #b3b4f1;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+	background-color: lightcoral;
+}
