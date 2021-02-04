@@ -72,9 +72,25 @@ h3{
     text-align: center;
 }
 
-li{
-    list-style-type: none;
-    display: inline-block;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #798fd8;
+}
+
+li a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #f7bb81
 }
 
 input[type=text], input[type=password], input[type=email], textarea{
