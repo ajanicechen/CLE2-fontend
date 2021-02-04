@@ -9,14 +9,14 @@
     </head>
 
     <body>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#commissionStyles"> Styles</a></li>
+          <li><a href="#commissionForm">Form</a></li>
+          <li><a href="#socials">Social Media</a></li>
+        </ul>
     <header>
     </header>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#commissionStyles"> Styles</a>
-            <a href="#commissionForm">Form</a>
-            <a href="#socials">Social Media</a>
-        </nav>
         <section id="home">
             <p>
             <h1>HA • KI • ZEN</h1>
