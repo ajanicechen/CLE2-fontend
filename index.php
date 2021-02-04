@@ -1,6 +1,3 @@
-<?php
-?>
-
 <html xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="UTF-8">
@@ -8,14 +5,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#commissionStyles"> Styles</a></li>
-          <li><a href="#commissionForm">Form</a></li>
-          <li><a href="#socials">Social Media</a></li>
-          <li><a href="admin.php" class="admin">Admin</a></li>
-        </ul>
     <header>
+      <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#commissionStyles"> Styles</a></li>
+            <li><a href="#commissionForm">Form</a></li>
+            <li><a href="#socials">Social Media</a></li>
+            <!--<li><a href="admin.php" class="admin">Admin</a></li>-->
+          </ul>
+      </nav>
     </header>
         <section id="home">
             <p>
@@ -90,10 +89,13 @@
                 <input type="submit" value="Submit Request!" name="submit">
             </div>
         </section>
-    </body>
     <footer id="socials">
-        <a href="https://twitter.com/hakizenk">Twitter</a>
-        <a href="https://www.instagram.com/hakizen/">Instagram</a>
-        <a href="https://ko-fi.com/hakizen">Ko-fi</a>
-    </footer>
+        <ul>
+          <li><a href="https://twitter.com/hakizenk">Twitter</a></li>
+          <li><a href="https://www.instagram.com/hakizen/">Instagram</a></li>
+          <li><a href="https://ko-fi.com/hakizen">Ko-fi</a></li>
+          <li>© 2021 Hakizen</li>
+        </ul>
+      </footer>
+    </body>
 </html>
