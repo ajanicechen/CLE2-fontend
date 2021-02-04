@@ -4,9 +4,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /*justify-content: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: center;*/
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -73,7 +73,11 @@ h3{
     text-align: center;
 }
 
-ul{
+/*nav{
+ display: flex;
+}*/
+
+nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -81,26 +85,56 @@ ul{
   background-color: #798fd8;
 }
 
-li a{
+nav li a{
   float: left;
   display: block;
+  /*width: 25%;*/
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover{
+nav li a:hover{
   background-color: #f7bb81
 }
 
-.admin{
+nav .admin{
   float: right;
   background-color: #5c5475;
 }
 
-.admin:hover{
+nav .admin:hover{
   background-color: #798fd8;
+}
+
+footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #798fd8;
+}
+
+footer li a{
+  margin: 0;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+footer li a:hover{
+  background-color: #f7bb81
 }
 
 input[type=text], input[type=password], input[type=email], textarea{
@@ -108,7 +142,7 @@ input[type=text], input[type=password], input[type=email], textarea{
     padding: 10px 20px;
     margin: 4px 0;
     display: inline;
-    border: 1px solid #ccc;
+    border:alid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
