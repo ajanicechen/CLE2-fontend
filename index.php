@@ -5,15 +5,15 @@
     <head>
         <meta charset="UTF-8">
         <title>Hakizen's Commissions!</title>
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
-
     <body>
-        <ul>
+      <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#commissionStyles"> Styles</a></li>
           <li><a href="#commissionForm">Form</a></li>
           <li><a href="#socials">Social Media</a></li>
+          <li><a href="admin.php" class="admin">Admin</a></li>
         </ul>
     <header>
     </header>
