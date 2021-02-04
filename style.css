@@ -7,6 +7,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 body{
@@ -91,6 +92,15 @@ li a{
 
 li a:hover{
   background-color: #f7bb81
+}
+
+.admin{
+  float: right;
+  background-color: #5c5475;
+}
+
+.admin:hover{
+  background-color: #798fd8;
 }
 
 input[type=text], input[type=password], input[type=email], textarea{
