@@ -21,6 +21,8 @@
             <h1>HA • KI • ZEN</h1>
             <h2>Commission Info</h2>
             </p>
+
+            <!-- Commission Rules/Info -->
             <div class="rules">
                 <p>
                     - Please describe or link a picture of the character/person you want me to draw!
@@ -50,9 +52,10 @@
                     <li><a href="commissionStyles.php">Commission Styles</a></li>
                     <li><a href="forum.php">Commission Here!</a></li>
                 </ul>
-                -->
+            -->
         </section>
 
+        <!-- Commission Styles -->
         <section id="commissionStyles">
             <h2>Commission Styles</h2>
             <img class="images" src="../images/cartoonStyle.jpg" alt="Cartoon">
@@ -60,32 +63,36 @@
             <img class="images" src="../images/90sStyle.jpg" alt="90s Anime">
         </section>
 
+        <!-- Commission Form -->
         <section id="commissionForm">
             <h2>Commission Form</h2>
             <div class="rules">
                 <h3>Please fill in this form!</h3>
-                <p>
-                    <label for="name"></label>
-                    <input id="name" type="text" name="name" placeholder="Name">
-                </p>
-                <p>
-                    <label for="twitter"></label>
-                    <input id="twitter" type="text" name="twitter" placeholder="Twitter">
-                </p>
-                <p>
-                    <label for="email"></label>
-                    <input id="email" type="email" name="email" placeholder="E-mail">
-                </p>
+
+                <!-- Input Name -->
+                <label for="name"></label>
+                <input id="name" type="text" name="name" placeholder="Name">
+              	
+            	<!-- Input Twitter -->  	
+                <label for="twitter"></label>
+                <input id="twitter" type="text" name="twitter" placeholder="Twitter">
+               
+               	<!-- Input Email -->
+                <label for="email"></label>
+                <input id="email" type="email" name="email" placeholder="E-mail">
+                
+                <!-- Style Select -->
                 <select>
                     <option selected disabled>--Select a style--</option>
                     <option value="1">Cartoon €15,-</option>
                     <option value="2">Full Body €25,-</option>
                     <option value="3">90's Anime €30,-</option>
                 </select>
-                <p>
-                    <label for="description"></label>
-                    <textarea id="description" name="description" placeholder="Please enter commission details (´｡• ᵕ •｡`)/)" ></textarea>
-                </p>
+                
+                <!-- Input Description -->
+                <label for="description"></label>
+                <textarea id="description" name="description" placeholder="Please enter details (´｡• ᵕ •｡`)/)" ></textarea>
+                
                 <input type="submit" value="Submit Request!" name="submit">
             </div>
         </section>
