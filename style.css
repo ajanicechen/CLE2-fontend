@@ -1,72 +1,72 @@
 header{
-  background-image: url("https://pbs.twimg.com/profile_banners/1153609313904185345/1602370242/1500x500");
-  height: 250px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /*justify-content: center;
-  display: flex;
-  align-items: center;*/
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    background-image: url("../images/header.png");
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*justify-content: center;
+    display: flex;
+    align-items: center;*/
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 body{
-  background-image: url("images/background1.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../images/background1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
-  max-width: 800px;
-  margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 section{
-  box-sizing: border-box;
-  background-color: #FFF9F8;
-  max-width: 600px;
-  padding: 10px 20px;
-  margin: 40px auto;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    background-color: #FFF9F8;
+    max-width: 600px;
+    padding: 10px 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .rules{
-  box-sizing: border-box;
-  /*margin: auto;*/
-  margin-bottom: 10px;
-  max-width: 600px;
-  position: center;
-  background-color: #FFECEB;
-  padding: 5px 20px;
-  color: lightcoral;
-  font-weight: bold;
-  border-radius: 10px;
+    box-sizing: border-box;
+    /*margin: auto;*/
+    margin-bottom: 10px;
+    max-width: 600px;
+    position: center;
+    background-color: #FFECEB;
+    padding: 5px 20px;
+    color: lightcoral;
+    font-weight: bold;
+    border-radius: 10px;
 }
 
 h1{
-  color: orange;
-  margin: 0;
-  font-weight: bold;
-  font-size: xxx-large;
-  text-align: center;
-  text-shadow: -3px -3px orangered;
+    color: orange;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -3px -3px orangered;
 }
 
 h2{
-  color: lightcoral;
-  margin: 10px 0;
-  font-weight: bold;
-  font-size: x-large;
-  text-align: center;
-  text-shadow: -2px -2px rebeccapurple;
+    color: lightcoral;
+    margin: 10px 10px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: -2px -2px rebeccapurple;
 }
 
 h3{
-   color: lightcoral;
-   text-align: center;
+    color: lightcoral;
+    text-align: center;
 }
 
 /*nav{
@@ -74,124 +74,124 @@ h3{
 }*/
 
 nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #798fd8;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #798fd8;
 }
 
 nav li a{
-  float: left;
-  display: block;
-  /*width: 25%;*/
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    /*width: 25%;*/
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 nav li a:hover{
-  background-color: #f7bb81
+    background-color: #f7bb81
 }
 
 nav .admin{
-  float: right;
-  background-color: #5c5475;
+    float: right;
+    background-color: #5c5475;
 }
 
 nav .admin:hover{
-  background-color: #798fd8;
+    background-color: #798fd8;
 }
 
 footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  padding-bottom: 10px;
-  background-color: #798fd8;
-  text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding-bottom: 10px;
+    background-color: #798fd8;
+    text-align: center;
 }
 
 footer ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #798fd8;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #798fd8;
 }
 
 footer li a{
-  margin: 0;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 8px 16px;
-  text-decoration: none;
+    margin: 0;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
 footer li a:hover{
-  background-color: #f7bb81
+    background-color: #f7bb81
 }
 
 input[type=text], input[type=password], input[type=email], textarea, select{
-  width: 95%;
-  padding: 10px 20px;
-  /*margin: 4px 0;*/
-  margin-bottom: 20px;
-  display: inline;
-  border: 1px solid #ccc
-  border-radius: 4px;
-  box-sizing: border-box;
+    width: 95%;
+    padding: 10px 20px;
+    /*margin: 4px 0;*/
+    margin-bottom: 20px;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 textarea{
-  padding-bottom: 75px;  
+    padding-bottom: 75px;
 }
 
 input[type=submit] {
-  background-color: #b3b4f1;
-  border: 0px;
-  border-radius: 30px;
-  color: white;
-  font-weight: bold;
-  padding: 15px 15px;
-  margin-bottom: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+    background-color: #b3b4f1;
+    border: 0px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .buttons{
-  text-align: center;
-  justify-content: space-around;
+    text-align: center;
+    justify-content: space-around;
 }
 .buttons a:link, .buttons a:visited{
-  background-color: #b3b4f1;
-  border-radius: 30px;
-  color: white;
-  font-weight: bold;
-  padding: 15px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+    background-color: #b3b4f1;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 .buttons a:hover, .buttons a:active{
-  background-color: lightcoral;
+    background-color: lightcoral;
 }
 
 .images{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  max-width: 300px;
-  max-height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px;
+    max-height: 250px;
 }
 
 @media screen and (max-width: 550px) {
-  nav {
-    display:block;
+    nav {
+        display:block;
     }
 }
