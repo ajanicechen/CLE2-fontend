@@ -1,110 +1,133 @@
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Hakizen's Commissions!</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
-<header>
-    <nav>
+<body class="grid-container">
+    <header class="item1">
+        <!--  Navigation bar  -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#commissionStyles"> Styles</a></li>
+                <li><a href="#commissionForm">Form</a></li>
+                <li><a href="#socials">Social Media</a></li>
+                <!--<li><a href="admin.php" class="admin">Admin</a></li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main / Home -->
+    <section id="home" class="item2">
+        <!-- titles -->
+        <h1>HA • KI • ZEN</h1>
+        <h2>Commission Info</h2>
+
+        <!-- Commission Rules/Info -->
+        <div class="rules">
+            <p>
+                - Please describe or link a picture of the character/person you want me to draw!
+                You could also send pictures of character/person to me on Twitter/Insta!
+            </p>
+            <p>
+                - If you want me to draw them in a specific pose, let me know! Please link a picture
+                or a quick sketch of the pose in the (doesn't matter if it's 'bad'). If you don't
+                have a picture or sketch, please describe it as best as you can.
+            </p>
+            <p>
+                - Let me know what color background you want
+            </p>
+        </div>
+
+        <!--Terms of Services-->
+        <h2>Terms of services</h2>
+        <div class="rules">
+            <p>
+                I will message you when I start working on your commission.
+                Because of school I may take a maximum of 2 weeks on each commission.
+                Please keep this in mind before commissioning.
+            </p>
+        </div>
+    </section>
+
+    <!-- Commission Styles -->
+    <section id="commissionStyles" class="item3">
+        <h2>Commission Styles</h2>
+
+        <!--  slide show container  -->
+        <div class="slideshow-container">
+
+            <!-- images with number and caption -->
+            <div class="mySlides">
+                <p class="numberText">1 / 3</p>
+                <img class="images" src="../images/cartoonStyle.jpg" alt="Cartoon">
+            </div>
+
+            <div class="mySlides">
+                <p class="numberText">2 / 3</p>
+                <img class="images" src="../images/fulBodyStyle.jpg" alt="Full Body">
+            </div>
+
+            <div class="mySlides">
+                <p class="numberText">3 / 3</p>
+                <img class="images" src="../images/90sStyle.jpg" alt="90s Anime">
+            </div>
+
+            <!-- buttons for previous and next image -->
+            <div id="prev">☙</div>
+            <div id="next">❧</div>
+        </div>
+    </section>
+
+    <!-- Commission Form -->
+    <section id="commissionForm" class="item4">
+        <h2>Commission Form</h2>
+        <div class="rules">
+            <h3>Please fill in this form!</h3>
+
+            <!-- Input Name -->
+            <label for="name"></label>
+            <input id="name" type="text" name="name" placeholder="Name">
+
+            <!-- Input Twitter -->
+            <label for="twitter"></label>
+            <input id="twitter" type="text" name="twitter" placeholder="Twitter">
+
+            <!-- Input Email -->
+            <label for="email"></label>
+            <input id="email" type="email" name="email" placeholder="E-mail">
+
+            <!-- Style Select -->
+            <label for="style-select"></label>
+            <select id="style-select">
+                <option selected disabled>--Select a style--</option>
+                <option value="1">Cartoon €15,-</option>
+                <option value="2">Full Body €25,-</option>
+                <option value="3">90's Anime €30,-</option>
+            </select>
+
+            <!-- Input Description -->
+            <label for="description"></label>
+            <textarea id="description" name="description" placeholder="Please enter details (´｡• ᵕ •｡`)/)" ></textarea>
+
+            <input type="submit" value="Submit Request!" name="submit">
+        </div>
+    </section>
+
+    <!-- Footer with socials -->
+    <footer id="socials" class="item5">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#commissionStyles"> Styles</a></li>
-            <li><a href="#commissionForm">Form</a></li>
-            <li><a href="#socials">Social Media</a></li>
-            <!--<li><a href="admin.php" class="admin">Admin</a></li>-->
+            <li><a href="https://twitter.com/hakizenk">Twitter</a></li>
+            <li><a href="https://www.instagram.com/hakizen/">Instagram</a></li>
+            <li><a href="https://ko-fi.com/hakizen">Ko-fi</a></li>
+            <li>© 2021 Hakizen</li>
         </ul>
-    </nav>
-</header>
+    </footer>
 
-<!-- Main / Home -->
-<section id="home">
-    <!-- titles -->
-    <h1>HA • KI • ZEN</h1>
-    <h2>Commission Info</h2>
-
-    <!-- Commission Rules/Info -->
-    <div class="rules">
-        <p>
-            - Please describe or link a picture of the character/person you want me to draw!
-            You could also send pictures of character/person to me on Twitter/Insta!
-        </p>
-        <p>
-            - If you want me to draw them in a specific pose, let me know! Please link a picture
-            or a quick sketch of the pose in the (doesn't matter if it's 'bad'). If you don't
-            have a picture or sketch, please describe it as best as you can.
-        </p>
-        <p>
-            - Let me know what color background you want
-        </p>
-    </div>
-
-    <!--Terms of Services-->
-    <h2>Terms of services</h2>
-    <div class="rules">
-        <p>
-            I will message you when I start working on your commission.
-            Because of school I may take a maximum of 2 weeks on each commission.
-            Please keep this in mind before commissioning.
-        </p>
-    </div>
-    <!--
-        <ul class="buttons">
-            <li><a href="commissionStyles.php">Commission Styles</a></li>
-            <li><a href="forum.php">Commission Here!</a></li>
-        </ul>
-    -->
-</section>
-
-<!-- Commission Styles -->
-<section id="commissionStyles">
-    <h2>Commission Styles</h2>
-    <img class="images" src="../images/cartoonStyle.jpg" alt="Cartoon">
-    <img class="images" src="../images/fulBodyStyle.jpg" alt="Full Body">
-    <img class="images" src="../images/90sStyle.jpg" alt="90s Anime">
-</section>
-
-<!-- Commission Form -->
-<section id="commissionForm">
-    <h2>Commission Form</h2>
-    <div class="rules">
-        <h3>Please fill in this form!</h3>
-
-        <!-- Input Name -->
-        <label for="name"></label>
-        <input id="name" type="text" name="name" placeholder="Name">
-
-        <!-- Input Twitter -->
-        <label for="twitter"></label>
-        <input id="twitter" type="text" name="twitter" placeholder="Twitter">
-
-        <!-- Input Email -->
-        <label for="email"></label>
-        <input id="email" type="email" name="email" placeholder="E-mail">
-
-        <!-- Style Select -->
-        <select>
-            <option selected disabled>--Select a style--</option>
-            <option value="1">Cartoon €15,-</option>
-            <option value="2">Full Body €25,-</option>
-            <option value="3">90's Anime €30,-</option>
-        </select>
-
-        <!-- Input Description -->
-        <label for="description"></label>
-        <textarea id="description" name="description" placeholder="Please enter details (´｡• ᵕ •｡`)/)" ></textarea>
-
-        <input type="submit" value="Submit Request!" name="submit">
-    </div>
-</section>
-<footer id="socials">
-    <ul>
-        <li><a href="https://twitter.com/hakizenk">Twitter</a></li>
-        <li><a href="https://www.instagram.com/hakizen/">Instagram</a></li>
-        <li><a href="https://ko-fi.com/hakizen">Ko-fi</a></li>
-        <li>© 2021 Hakizen</li>
-    </ul>
-</footer>
+    <!--  Call up javascript for Slideshow  -->
+    <script src="../js/main.js"></script>
 </body>
 </html>
+
